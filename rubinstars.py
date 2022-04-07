@@ -1,9 +1,10 @@
 from github import Github
 import yaml
-repoStars = {} 
-g=Github()
+
+def star_count(repoName):
+	repo = Github().get_repo(repoName)
+	return yaml.dump({repoName : repo.stargazers_count})
+ 
 repoList = ["freeCodeCamp/freeCodeCamp","996icu/996.ICU","EbookFoundation/free-programming-books"] 
 for repoName in repoList:
-	repo = g.get_repo(repoName)
-	repoStars.update({repoName : repo.stargazers_count})
-print(yaml.dump(repoStars, default_flow_style = False))	
+	print(star_count(repoName))	
