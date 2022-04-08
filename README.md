@@ -1,16 +1,16 @@
-Rubinstars 🌠
+#Rubinstars 🌠
 ==========
 
-What it does?
+##What it does?
 -------------
 This Project counts the number of stars in 3 specific repositorys then it pushes 
 a lovely Docker Image with Github Actions and ready to GO! ([a link] (https://hub.docker.com/repository/docker/cbarria/rubinstars))
 
 the repos are...
 
-  ● freeCodeCamp/freeCodeCamp
-  ● 996icu/996.ICU
-  ● EbookFoundation/free-programming-books
+  * freeCodeCamp/freeCodeCamp
+  * 996icu/996.ICU
+  * EbookFoundation/free-programming-books
   
 you will need Docker to eventually run this complete, 
 but you can only run the Python if you have the following dependencies:
