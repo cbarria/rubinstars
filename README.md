@@ -22,14 +22,14 @@ if you have the following dependencies:
    https://hub.docker.com/repository/docker/cbarria/rubinstars
 
 ## QUICK GUIDE:
-* For running the stand-alone python code:
+* For running the stand-alone python code:<br>
   **python rubinstar.py**
 
-* For building the image run:
+* For building the image run:<br>
   **sudo docker build -t rubinstars .**
 
-* For running the docker image:
+* For running the docker image:<br>
   **sudo docker run rubinstars**
 
-* For running unit testing:
-  **python -m unittest rubinstars_test**
+* For running unit testing:<br>
+  **python -m unittest rubinstars_test.py**
