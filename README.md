@@ -2,9 +2,8 @@
 
 ### What it does?
 
-This Project counts the number of stars in 3 specific repositorys then it pushes 
-a lovely Docker Image with Github Actions and ready to GO! 
-(if you wanna run for it -> https://hub.docker.com/repository/docker/cbarria/rubinstars)
+This Project counts the number of stars in 3 specific repositorys then it pushes<br>
+a lovely Docker Image with Github Actions and you are set to go Stargazer! 
 
 the repos are...
 
@@ -18,7 +17,10 @@ but you can only run the Python if you have the following dependencies:
     * Pyyaml
     
  This was CentOS 7 made with python v3  
-    
+
+## Docker Image can be found here:  
+   https://hub.docker.com/repository/docker/cbarria/rubinstars
+
 ## QUICK GUIDE:
 * For running the stand-alone python code:
   python rubinstar.py
