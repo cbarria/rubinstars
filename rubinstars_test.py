@@ -6,5 +6,5 @@ import yaml
 class Teststar_count(unittest.TestCase):
 	def test_input(self):
 		#test if value is correct for 
-		self.assertEqual(star_count("freeCodeCamp/freeCodeCamp"),yaml.dump({"freeCodeCamp/freeCodeCamp" : 343642})) #this value is dinamic =/
+		self.assertEqual(star_count("freeCodeCamp/freeCodeCamp"),yaml.dump({"freeCodeCamp/freeCodeCamp" : 343645})) #this value is dinamic =/
 			
