@@ -1,7 +1,7 @@
-Rubinstars 🌠
+# Rubinstars 🌠
 ==========
 
-#What it does?
+## What it does?
 
 This Project counts the number of stars in 3 specific repositorys then it pushes 
 a lovely Docker Image with Github Actions and ready to GO! ([a link] (https://hub.docker.com/repository/docker/cbarria/rubinstars))
