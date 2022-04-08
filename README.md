@@ -2,7 +2,7 @@
 
 ### What it does?
 
-This Project counts the number of stars in 3 specific repositorys then it pushes****
+This Project counts the number of stars in 3 specific repositorys then it pushes<br>
 a lovely Docker Image with Github Actions and you are set to go Stargazer!
 
 BTW This was CentOS 7 made with python v3! =)
@@ -13,7 +13,7 @@ the repos are...
   * 996icu/996.ICU
   * EbookFoundation/free-programming-books
 
-you will need Docker to eventually run this complete, but you can only run the Python,
+you will need Docker to eventually run this complete, but you can only run the Python,<br>
 if you have the following dependencies:
 * GyGithub
 * Pyyaml
