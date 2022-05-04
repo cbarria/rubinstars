@@ -32,4 +32,4 @@ if you have the following dependencies:
   **sudo docker run rubinstars**
 
 * For running unit testing:<br>
-  **python -m unittest rubinstars_test.py**
+  **python -m unittest rubinstars_test**
